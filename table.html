@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".//style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+     <!-- navbar section starts -->
+  <section class="navBar">
+    <div class="menu">
+      <i class="fa-solid fa-bars"></i>
+
+      <div class="dropdown" aria-hidden="true">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="table.html">Reservation</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="about-us.html">Contact-Us</a></li>
+        </ul>
+
+        <div class="social">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </div>
+
+    <img src="./images/logo.png" alt="logo">
+    <button class="navbarBtn">Make reservation</button>
+  </section>
+  <!-- navbar section end -->
+    <div class="table-main">
+        <div class="table-sec1">
+            <h2>Make reservation</h2>
+            <h3>1. Number of Guest</h3>
+            <div class="number-box">
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+            </div>
+        </div>
+        <div class="table-sec2">
+            <h3 class="title">2. Length of your stay</h3>
+            <div class="length-box">
+                <div class="box">1 day</div>
+                <div class="box">2 days</div>
+                <div class="box">3 days</div>
+                <div class="box">4 days</div>
+            </div>
+        </div>
+        <div class="table-sec3">
+            <h3 class="title">3. Select date</h3>
+            <div class="calendar">
+                <div class="heading">
+                    <span class="month">April 2025</span>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SUN</th>
+                            <th>MON</th>
+                            <th>TUE</th>
+                            <th>WED</th>
+                            <th>THU</th>
+                            <th>FRI</th>
+                            <th>SAT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="prev-month">27</td>
+                            <td class="prev-month">28</td>
+                            <td class="prev-month">29</td>
+                            <td class="prev-month">30</td>
+                            <td class="prev-month">31</td>
+                            <td>01</td>
+                            <td>02</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>04</td>
+                            <td>05</td>
+                            <td>06</td>
+                            <td>07</td>
+                            <td>08</td>
+                            <td>09</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="container">
+            <form id="contact" action="" method="post" style="padding: 20px;">
+                <h3>Elite Contact Form</h3>
+                <h4>Contact us for custom quote</h4>
+                <fieldset>
+                    <input class="myform" placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3">
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Web Site (optional)" type="url" tabindex="4">
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" style="margin: 20px;">Make Request</button>
+                </fieldset>
+            </form>
+        </div>
+        <!-- <button class="table-main-btn">Make requests</button> -->
+        <!-- Form -->
+
+    </div>
+
+</body>
+
+</html>
